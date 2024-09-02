@@ -309,12 +309,6 @@ More information can be found in the LionSec Continous Monitoring Plan.xlsx file
 
 <h2>Conclusion</h2>
 
-Certainly! Here’s a revised conclusion that integrates the list of NIST publications used, as well as the achievement of CMMC compliance:
-
----
-
-### Conclusion
-
 This project has successfully demonstrated the importance of a structured and methodical approach to cybersecurity governance, risk management, and compliance (GRC). By leveraging the comprehensive guidance provided by key NIST publications, we were able to design, secure, and assess an environment that not only protects Controlled Unclassified Information (CUI) but also meets the requirements for Cybersecurity Maturity Model Certification (CMMC) Level 2 compliance.
 
 The foundation of our security efforts was built upon **NIST SP 800-171: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations**, which provided the necessary framework for safeguarding CUI. To ensure that these requirements were effectively implemented, we selected and tailored security controls from **NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations**. These controls were documented in the System Security Plan (SSP), forming the backbone of our compliance strategy.
