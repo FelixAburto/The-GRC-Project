@@ -135,6 +135,7 @@ More information can be found in the files: LionSec Baseline Risk Assessment.xls
 <img src="https://imgur.com/0b40q2H.png" height="100%" width="100%" alt="Detection Engineering Logo Team Ghost"/>
 </p>
 
+<br />
 
 <h2>NIST 800-37 Risk Management Framework</h2>
 
@@ -241,3 +242,87 @@ More information can be found in the file : LionsSec POST Risk Assessment.xlsx
 <br />
 
 ### Authorize System:
+
+After successfully implementing and assessing the necessary security controls, I proceeded to the "Authorize System" phase of the NIST Risk Management Framework (RMF). This critical phase involved obtaining formal authorization to operate the system, ensuring that all risks had been sufficiently mitigated to an acceptable level.
+
+**Preparation of the Authorization Package**:
+   - To initiate the authorization process, I compiled a comprehensive authorization package that included all the necessary documentation. This package contained the System Security Plan (SSP), the results from the Baseline and Post Risk Assessments, the Plan of Action and Milestones (POA&M), The Security Assessment Report (SAR) and the Continuous Monitoring Plan. These documents provided a clear and detailed account of the system’s security posture and the steps taken to address identified risks.
+
+**Submission to the Authorizing Official (CISO)**:
+   - The authorization package was submitted to the Chief Information Security Officer (CISO), who serves as the Authorizing Official (AO). The CISO’s role was to review the package, assess the residual risks, and determine whether the system’s security controls were adequate to protect the organization's operations and assets.
+
+**Risk-Based Decision Making**:
+   - The CISO conducted a thorough review of the package, focusing on the remaining residual risks documented in the POA&M and the effectiveness of the implemented controls. This review was guided by the risk assessments, which quantified the likelihood and impact of potential threats. The CISO considered whether the risks were within the organization’s acceptable risk tolerance and whether any further actions were necessary.
+
+**Authorization Decision**:
+   - After evaluating the residual risks and the overall security posture of the system, the CISO made a risk-based decision to authorize the system to operate. The decision was based on the confidence that the implemented security controls were sufficient to protect the system and the information it processes. The CISO provided formal authorization, granting the system the authority to operate (ATO) within the defined parameters.
+
+**Issuance of the Authorization to Operate (ATO)**:
+   - The CISO issued the ATO, officially allowing the system to enter production and operate under the prescribed security controls. The ATO also outlined any conditions or limitations, such as requirements for continuous monitoring or specific areas where additional safeguards might be needed in the future.
+
+**Continuous Monitoring and Reauthorization**:
+   - Following the authorization, a continuous monitoring plan was activated to ensure that the system remains compliant with the established security controls. Regular assessments and updates will be conducted to maintain the system's security posture and to address any new risks that emerge over time. The CISO will review the system periodically to determine if reauthorization is necessary, especially if significant changes occur in the system’s environment or operational context.
+
+The files for the Authorization Package have been attached as well.
+
+<br />
+<p align="center">
+<img src="https://imgur.com/khd2QgM.png" height="100%" width="100%" alt="Detection Engineering Logo Team Ghost"/>
+</p>
+
+<br />
+<p align="center">
+<img src="https://imgur.com/y5bYgz4.png" height="100%" width="100%" alt="Detection Engineering Logo Team Ghost"/>
+</p>
+
+<br />
+<p align="center">
+<img src="https://imgur.com/kh0pvHn.png" height="100%" width="100%" alt="Detection Engineering Logo Team Ghost"/>
+</p>
+
+<br />
+<p align="center">
+<img src="https://imgur.com/iMVgmuA.png" height="100%" width="100%" alt="Detection Engineering Logo Team Ghost"/>
+</p>
+
+<br />
+
+### Monitor Security Controls:
+
+To successfully complete the "Monitor Security Controls" section of the NIST Risk Management Framework (RMF), I executed the Continuous Monitoring Plan (CMP), ensuring that all required security controls were continuously assessed and evaluated.
+
+**Structured Monitoring Process:**
+The CMP was structured to monitor key security controls across different areas of the organization. Each control had a clearly defined monitoring schedule, responsible team, and deliverables. This structure allowed for organized and efficient monitoring, ensuring that no aspect of the security posture was overlooked.
+
+**Regular Assessment of Controls:**
+The CMP outlined specific frequencies for monitoring each control, ranging from daily to quarterly checks. For instance, critical controls such as Continuous Monitoring (CA-7) were assessed daily to maintain real-time awareness of the system’s security status. Other controls, like Authenticator Management (IA-5), were monitored monthly. This regular assessment ensured that any potential security issues were detected promptly.
+
+**Role-Based Accountability:**
+Each control was assigned to a specific team or individual responsible for its monitoring and reporting. This clear delegation of responsibilities ensured that the monitoring tasks were executed consistently and that the appropriate expertise was applied to each control. For example, the Identity and Access Management (IAM) Team was responsible for controls related to authentication, ensuring that multi-factor authentication and identity verification processes were properly maintained.
+
+**Consistent Reporting and Documentation:**
+As part of the CMP execution, each monitoring activity resulted in the generation of deliverables such as logs, reports, and analysis documents. These deliverables were crucial in providing evidence of the ongoing effectiveness of the security controls. For example, Security Monitoring Logs and Incident Response Reports were generated daily, providing a continuous stream of data to support the security posture of the system.
+
+More information can be found in the LionSec Continous Monitoring Plan.xlsx file.
+
+<br />
+
+<h2>Conclusion</h2>
+
+Certainly! Here’s a revised conclusion that integrates the list of NIST publications used, as well as the achievement of CMMC compliance:
+
+---
+
+### Conclusion
+
+This project has successfully demonstrated the importance of a structured and methodical approach to cybersecurity governance, risk management, and compliance (GRC). By leveraging the comprehensive guidance provided by key NIST publications, we were able to design, secure, and assess an environment that not only protects Controlled Unclassified Information (CUI) but also meets the requirements for Cybersecurity Maturity Model Certification (CMMC) Level 2 compliance.
+
+The foundation of our security efforts was built upon **NIST SP 800-171: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations**, which provided the necessary framework for safeguarding CUI. To ensure that these requirements were effectively implemented, we selected and tailored security controls from **NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations**. These controls were documented in the System Security Plan (SSP), forming the backbone of our compliance strategy.
+
+To gain a clear understanding of the risk landscape, a thorough Baseline Risk Assessment was conducted using **NIST SP 800-30: Guide for Conducting Risk Assessments**. This assessment identified critical vulnerabilities and prioritized them based on their potential impact, guiding our risk management efforts. The entire risk management process was then governed by **NIST SP 800-37: Risk Management Framework for Information Systems and Organizations**, which ensured that risks were systematically managed throughout the system’s life cycle.
+
+In determining the appropriate security categorization for our system, we utilized **NIST SP 800-60: Guide for Mapping Types of Information and Information Systems to Security Categories**. This helped in accurately assessing the impact level for confidentiality, integrity, and availability, which in turn guided the selection of security controls tailored to the organization’s specific risk tolerance and regulatory obligations.
+
+The culmination of these efforts resulted in a significant reduction in the organization’s risk profile, with a calculated 40% reduction in overall risk, effectively lowering the environment’s risk level from 'Moderate' to 'Low'. This achievement not only met the compliance standards outlined in the NIST SP 800-171 but also ensured that the environment is fully compliant with CMMC Level 2, positioning the organization to securely manage and protect CUI in alignment with government standards and industry best practices.
+
+In conclusion, this project not only fulfilled its primary objectives but also established a strong foundation for future security initiatives. The integration of NIST standards into every phase of the project underscores the importance of a rigorous, standards-based approach to cybersecurity, ensuring long-term resilience and success in the face of ever-changing threats.
